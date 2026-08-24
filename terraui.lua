@@ -44,7 +44,7 @@ by Nebula Softworks
 
 ]]
 
-local Release = "Prerelease Beta 6.1 - Dark Enhanced"
+local Release = "Prerelease Beta 6.1"
 
 local Luna = { 
 	Folder = "Luna", 
@@ -1561,13 +1561,12 @@ local IconModule = {
 
 -- Other Variables
 local request = (syn and syn.request) or (http and http.request) or http_request or nil
--- Dark theme + motion system
 local DarkTheme = {
 	Name = "Dark",
 
 	Accent = Color3.fromHex("#18181b"),
 	Dialog = Color3.fromHex("#1a1a1a"),
-	Outline = Color3.fromHex("#FFFFFF"),
+	Outline = Color3.fromHex("#a1a1a1"),
 	Text = Color3.fromHex("#FFFFFF"),
 	Placeholder = Color3.fromHex("#a1a1a1"),
 	Background = Color3.fromHex("#101010"),
@@ -1578,13 +1577,13 @@ local DarkTheme = {
 	Checkbox = Color3.fromHex("#0091FF"),
 
 	PanelBackground = Color3.fromHex("#FFFFFF"),
-	PanelBackgroundTransparency = 0.95,
+	PanelBackgroundTransparency = 0,
 
 	SliderIcon = Color3.fromHex("#908F95"),
 	Primary = Color3.fromHex("#0091FF"),
 
 	LabelBackground = Color3.fromHex("#000000"),
-	LabelBackgroundTransparency = 0.83,
+	LabelBackgroundTransparency = 0,
 
 	ElementBackground = Color3.fromHex("#2A2A2C"),
 	ElementBackgroundTransparency = 0,
